@@ -4,6 +4,7 @@ Copyright © 2024 NAME HERE <EMAIL ADDRESS>
 package cmd
 
 import (
+	"github/hditano/clitool/cmd/info"
 	"github/hditano/clitool/cmd/net"
 	"os"
 
@@ -36,6 +37,7 @@ func Execute() {
 
 func addSubcommandPalettes() {
 	rootCmd.AddCommand(net.NetCmd)
+	rootCmd.AddCommand(info.InfoCmd)
 }
 
 func init() {
