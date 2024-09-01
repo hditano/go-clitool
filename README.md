@@ -1,4 +1,4 @@
-# CLI Tool
+# Go-CLITool
 
 ![Go](https://img.shields.io/badge/Go-1.16%2B-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
